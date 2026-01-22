@@ -37,8 +37,8 @@ Once installed, Claude will automatically invoke the skill when it detects date-
 ❯ Here is a section of a contract proposal: "The engagement will begin Monday, March 23 and
   conclude Friday, April 3."
 
-⏺ I notice this proposal specifies day-of-week for those dates. Let me verify if those dates align
-  correctly with the days mentioned.
+⏺ I notice this proposal specifies day-of-week for those dates. Let me verify if those dates
+  align correctly with the days mentioned.
 
 ⏺ Skill(temporal-awareness)
   ⎿  Successfully loaded skill · 1 tool allowed
@@ -57,7 +57,7 @@ Once installed, Claude will automatically invoke the skill when it detects date-
   back one week?
 
 ⏺ Bash(date -j -f "%Y-%m-%d" "2026-03-30" "+%A, %B %d" && date -j -f "%Y-%m-%d" "2026-04-10"
-      "+%A, %B %d")
+    "+%A, %B %d")
   ⎿  Monday, March 30
      Friday, April 10
 
