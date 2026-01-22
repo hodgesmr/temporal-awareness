@@ -1,8 +1,8 @@
 # Claude Temporal Awareness
 
-An [Agent Skill](https://agentskills.io) instructing Claude to use the Unix `date` command when working with tktk.
+An [Agent Skill](https://agentskills.io) instructing Claude to use the Unix `date` command when working with dates, days of week, deadlines, and temporal calculations.
 
-tktk - overview about usecases and GNU vs BSD
+Claude's system prompt date can be stale or unavailable, leading to incorrect temporal reasoning. This skill ensures accuracy by running actual `date` commands before responding to date-sensitive queries. It handles both GNU date (Linux) and BSD date (macOS/FreeBSD), which have different syntax for date parsing and arithmetic.
 
 ## Installation (Global)
 
@@ -31,7 +31,7 @@ cd ~/temporal-awareness && git fetch && git checkout 0.0.1
 
 ## Usage
 
-tktk - just an intro sentence
+Once installed, Claude will automatically invoke the skill when it detects date-related queries. Here's an example interaction:
 
 ❯ Here is a section of a contract proposal: "The engagement will begin Monday, March 23 and
   conclude Friday, April 3."
