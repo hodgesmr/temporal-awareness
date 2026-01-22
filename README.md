@@ -56,8 +56,8 @@ Once installed, Claude will automatically invoke the skill when it detects date-
 ❯ How would you update that section of the contract proposal to push the start and end dates
   back one week?
 
-⏺ Bash(date -j -f "%Y-%m-%d" "2026-03-30" "+%A, %B %d" && date -j -f "%Y-%m-%d" "2026-04-10" "+%A,
-      %B %d")
+⏺ Bash(date -j -f "%Y-%m-%d" "2026-03-30" "+%A, %B %d" && date -j -f "%Y-%m-%d" "2026-04-10"
+      "+%A, %B %d")
   ⎿  Monday, March 30
      Friday, April 10
 
