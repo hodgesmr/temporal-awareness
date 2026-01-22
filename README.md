@@ -33,7 +33,7 @@ cd ~/temporal-awareness && git fetch && git checkout 0.0.1
 
 Once installed, Claude will automatically invoke the skill when it detects date-related queries. Here's an example interaction:
 
-```bash
+```text
 ❯ Here is a section of a contract proposal: "The engagement will begin Monday, March 23 and
   conclude Friday, April 3."
 
